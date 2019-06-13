@@ -10,9 +10,9 @@
     	"slim/slim":"2.0",
     	"rain/raintpl":"3.0.0"
     },
-  /*  "autoload": {
+    "autoload": {
         "psr-4": {
-            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
+            "Fsolutions\\": "vendor\\br\\php-classes\\src"
         }
-    }*/
+    }
 }

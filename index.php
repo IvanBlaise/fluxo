@@ -1,11 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Intranet Fluxo</title>
-</head>
-<body>
-	<h1>Teste de Intranet</h1>
+<?php 
+session_start();
+require_once("vendor/autoload.php");
+
+use \Slim\Slim;
+use \Fsolutions\Page;
 
 
-</body>
-</html>
+$app = new Slim();
+
+$app->config('debug', true);
+
+
+require_once("site.php");
+
+
+
+$app->run();
+
+ ?>
